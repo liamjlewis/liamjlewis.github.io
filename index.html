@@ -7,13 +7,93 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <header class="container mt-5">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Liam Lewis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work-history">Work History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container mt-5 pt-5">
     <div class="row">
       <div class="col-md-8">
         <h1>Liam Lewis</h1>
         <p>Full Stack Developer with 9 years of professional experience in web development.</p>
       </div>
+      <div class="col-md-4 text-end">
+        <p><strong>Email:</strong> <a href="mailto:Liamjlewis@gmail.com">Liamjlewis@gmail.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/liamjlewis" target="_blank">github.com/liamjlewis</a></p>
+        <p><strong>Phone:</strong> 0780 962 8057</p>
+      </div>
+    </div>
   </header>
+
+  <section id="skills" class="container mt-5">
+    <h2>Key Skills</h2>
+    <ul>
+      <li>React, Redux, TypeScript, ES2020, NodeJS, Express.js</li>
+      <li>MongoDB, MySQL, Elasticsearch</li>
+      <li>Unit Testing: Jest, Mocha</li>
+      <li>Bootstrap, SASS/LESS, Git, SVN</li>
+      <li>WordPress, PHP, HTML5, CSS3</li>
+    </ul>
+  </section>
+
+  <section id="work-history" class="container mt-5">
+    <h2>Work History</h2>
+
+    <div class="mb-3">
+      <h4>Inspira Digital (Mar - Aug 2024)</h4>
+      <p>Full-stack developer working on custom Shopify apps. Developed a Shopify app to connect stores with suppliers in real-time using Express.js, React Hooks, Redux Toolkit, MongoDB, and unit tests with Jest and Mocha.</p>
+    </div>
+
+    <div class="mb-3">
+      <h4>ONS (Dec 2021 - Oct 2022)</h4>
+      <p>Worked on frontend, backend, and internal dashboards using React, Redux, React Hooks, and GraphQL API calls. Maintained APIs with GoLang.</p>
+    </div>
+
+    <div class="mb-3">
+      <h4>Apple (Mar 2020 - Apr 2021)</h4>
+      <p>Led a greenfield project to build an accessibility testing tool. Utilized Docker, Kubernetes, MongoDB, and microservices API architecture.</p>
+    </div>
+
+    <!-- Add other job roles similarly -->
+
+  </section>
+
+  <section id="education" class="container mt-5">
+    <h2>Education</h2>
+
+    <div class="mb-3">
+      <h4>Sound & Multimedia Technology BSc Hons</h4>
+      <p>Birmingham City University (2009 - 2013), 2:1</p>
+    </div>
+
+    <div class="mb-3">
+      <h4>BTEC in Music Technology</h4>
+      <p>Mid-Cheshire College (2006 - 2008), Triple Distinction</p>
+    </div>
+  </section>
+
+  <footer class="bg-light text-center py-4">
+    <p>&copy; 2024 Liam Lewis - Full Stack Developer</p>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
