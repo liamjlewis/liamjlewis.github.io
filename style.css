@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Pathway+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* #d7523a #a1b3a5 #f0ebcd #000000 */
+    /* https://www.svgrepo.com/collection/colored-object-line-icons/ */
+    /* https://www.svgrepo.com/collection/ballicons-filled-vectors/ */
+    /* --colour-background: #001424; */
+    /* upper #5d6a74 lower #6f8799 */
+    --colour-background: #5d6a74;
+    --colour-background-nav: #4a5660;
+    --colour-background-garish: #cd5321;
+    /* --colour-background-lower: #06253f; */
+    /* --colour-background-lower: #000e19;
+    --colour-background-lower: #132330; */
+    --colour-background-lower: #1b2f3f;
+    --font-heading-colour: #ffffff;
+    --font-colour: #ffffffdd;
+    --font-hover-colour: #ff9b00;
+    --font-highlight-colour: #d26530;
+    --border-radius-tiny: 2.5px;
+}
+
+html {
+    font-size: 20px;
+    background: var(--colour-background);
+}
+
+body {
+    background: var(--colour-background);
+    color: var(--font-colour);
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    opacity: 1;
+    animation-name: fade-in-animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes fade-in-animation {
+    0%   {opacity: 0;}
+    100%  {opacity: 1;}
+}
+
+h1, h2, h3 {
+    font-family: "Pathway Gothic One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--font-heading-colour);
+}
+h1 {
+    font-size: 2.75rem;
+}
+h2 {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    margin-bottom: 1rem;
+}
+h3 {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+    /* font-size: 1.5rem; */
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+nav {
+    background: var(--colour-background-nav);
+}
+nav a {
+    color: var(--font-colour);
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--font-hover-colour);
+}
+
+.divider {
+    background-color: var(--colour-background-lower);
+}
+
+.lower-background {
+    background-color: var(--colour-background-lower);
+}
+
+.divider img {
+    width: 100%;
+    height: 120px;
+}
+
+.logo-area img {
+    height: 35px;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.experience-area ul {
+    list-style: none;
+    column-count: 4;
+    padding: 0;
+}
+/* .experience-area ul li {
+    display: inline-block;
+} */
+/* .experience-area ul li:not(:last-child)::after {
+    content: ",";
+} */
+
+.website-screenshot {
+    padding-top: 75%;
+    background-size: cover;
+    border-radius: var(--border-radius-tiny);
+    box-shadow: 0 0 20px #00000075;
+}
+
+@media (max-width: 576px) {
+
+}
+@media (max-width: 768px) {
+	.experience-area ul {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 768px), screen and (max-height: 555px) {
+
+}
