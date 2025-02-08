@@ -13,6 +13,7 @@
     /* --colour-background-lower: #000e19;
     --colour-background-lower: #132330; */
     --colour-background-lower: #1b2f3f;
+    --colour-background-lower-darker: #162531;
     --font-heading-colour: #ffffff;
     --font-colour: #ffffffdd;
     --font-hover-colour: #ff9b00;
@@ -65,19 +66,22 @@ h3 {
     /* font-size: 1.5rem; */
     letter-spacing: 0.3rem;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: 1.2rem;
 }
 
 nav {
     background: var(--colour-background-nav);
 }
-nav a {
+nav a, footer a {
     color: var(--font-colour);
     text-decoration: none;
 }
 nav a:hover {
     color: var(--font-hover-colour);
+}
+footer {
+    background: var(--colour-background-lower-darker);
 }
 
 .divider {
