@@ -6,14 +6,16 @@
     /* https://www.svgrepo.com/collection/ballicons-filled-vectors/ */
     /* --colour-background: #001424; */
     /* upper #5d6a74 lower #6f8799 */
-    --colour-background: #5d6a74;
-    --colour-background-nav: #4a5660;
+    --colour-background: #4a5965;
+    --colour-background-nav: #1e2225;
     --colour-background-garish: #cd5321;
     /* --colour-background-lower: #06253f; */
     /* --colour-background-lower: #000e19;
     --colour-background-lower: #132330; */
     --colour-background-lower: #1b2f3f;
-    --colour-background-lower-darker: #162531;
+    --colour-background-lower-lower: #14232f;
+    /* --colour-background-footer: #a03d3d; */
+    --colour-background-footer: #8b3838;
     --font-heading-colour: #ffffff;
     --font-colour: #ffffffdd;
     --font-hover-colour: #ff9b00;
@@ -23,7 +25,7 @@
 
 html {
     font-size: 20px;
-    background: var(--colour-background);
+    background: var(--colour-background-nav);
 }
 
 body {
@@ -51,10 +53,10 @@ h1, h2, h3 {
     color: var(--font-heading-colour);
 }
 h1 {
-    font-size: 2.75rem;
+    font-size: 3rem;
 }
 h2 {
-    font-size: 1.9rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     margin-bottom: 1rem;
@@ -72,6 +74,7 @@ h3 {
 
 nav {
     background: var(--colour-background-nav);
+    font-size: 0.8rem;
 }
 nav a, footer a {
     color: var(--font-colour);
@@ -81,20 +84,30 @@ nav a:hover {
     color: var(--font-hover-colour);
 }
 footer {
-    background: var(--colour-background-lower-darker);
+    background: var(--colour-background-footer);
 }
 
 .divider {
     background-color: var(--colour-background-lower);
+}
+.divider img {
+    width: 100%;
+    height: 120px;
+}
+.divider-lower {
+    background-color: var(--colour-background-lower-lower);
+}
+.divider-lower img {
+    width: 100%;
+    height: 170px;
 }
 
 .lower-background {
     background-color: var(--colour-background-lower);
 }
 
-.divider img {
-    width: 100%;
-    height: 120px;
+.lower-lower-background {
+    background-color: var(--colour-background-lower-lower);
 }
 
 .logo-area img {

@@ -1,6 +1,6 @@
-<svg height="100" width="100" style="outline: 1px solid red" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="0,0 0,25 100,0" style="fill:#5d6a74;" />
-  <polygon points="0,0 0,50 100,0" style="fill:#5d6a7455;" />
-  <polygon points="0,0 0,75 100,0" style="fill:#5d6a7455;" />
-  <polygon points="0,0 0,100 100,0" style="fill:#5d6a7455;" />
+<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="0,0 0,25 100,0" style="fill:#1b2f3f;" />
+  <polygon points="0,0 0,50 100,0" style="fill:#1b2f3f55;" />
+  <polygon points="0,0 0,75 100,0" style="fill:#1b2f3f55;" />
+  <polygon points="0,0 0,100 100,0" style="fill:#1b2f3f55;" />
 </svg>
